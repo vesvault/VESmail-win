@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VESmail-win", "VESmail-win\VESmail-win.vcxproj", "{0FF9EEAD-E727-445B-A989-401C9859911D}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{CF46231E-DA2C-4B98-BF6A-91823D973E48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FF9EEAD-E727-445B-A989-401C9859911D}.Debug|x64.ActiveCfg = Debug|x64
+		{0FF9EEAD-E727-445B-A989-401C9859911D}.Debug|x64.Build.0 = Debug|x64
+		{0FF9EEAD-E727-445B-A989-401C9859911D}.Debug|x86.ActiveCfg = Debug|Win32
+		{0FF9EEAD-E727-445B-A989-401C9859911D}.Debug|x86.Build.0 = Debug|Win32
+		{0FF9EEAD-E727-445B-A989-401C9859911D}.Release|x64.ActiveCfg = Release|x64
+		{0FF9EEAD-E727-445B-A989-401C9859911D}.Release|x64.Build.0 = Release|x64
+		{0FF9EEAD-E727-445B-A989-401C9859911D}.Release|x86.ActiveCfg = Release|Win32
+		{0FF9EEAD-E727-445B-A989-401C9859911D}.Release|x86.Build.0 = Release|Win32
+		{CF46231E-DA2C-4B98-BF6A-91823D973E48}.Debug|x64.ActiveCfg = Debug
+		{CF46231E-DA2C-4B98-BF6A-91823D973E48}.Debug|x86.ActiveCfg = Debug
+		{CF46231E-DA2C-4B98-BF6A-91823D973E48}.Debug|x86.Build.0 = Debug
+		{CF46231E-DA2C-4B98-BF6A-91823D973E48}.Release|x64.ActiveCfg = Release
+		{CF46231E-DA2C-4B98-BF6A-91823D973E48}.Release|x64.Build.0 = Release
+		{CF46231E-DA2C-4B98-BF6A-91823D973E48}.Release|x86.ActiveCfg = Release
+		{CF46231E-DA2C-4B98-BF6A-91823D973E48}.Release|x86.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7238678-8297-49B1-A77C-B2757DFBE0A3}
+	EndGlobalSection
+EndGlobal
