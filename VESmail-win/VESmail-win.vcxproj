@@ -168,6 +168,7 @@
     <ClInclude Include="VESmail-win.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="vmNotify.cpp" />
     <ClCompile Include="vmSpinner.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -182,7 +183,6 @@
     <ResourceCompile Include="VESmail-win.rc" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\..\..\..\Downloads\boxer-malemacro.jpg" />
     <Image Include="led-a.ico" />
     <Image Include="led-c.ico" />
     <Image Include="led-e.ico" />
@@ -190,6 +190,7 @@
     <Image Include="settings-h.ico" />
     <Image Include="settings.ico" />
     <Image Include="settings_e.ico" />
+    <Image Include="vesmail-logo-e.ico" />
     <Image Include="vesmail-logo.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
