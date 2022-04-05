@@ -42,7 +42,7 @@ LRESULT CALLBACK vmUsersWndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM l
 	}
 	case WM_MOUSEWHEEL:
 		vmUsers.scrolled = 1;
-		SendMessage(GetParent(hWnd), VMW_MSG_USCROLL, HIWORD(wParam) / 8, 0);
+		SendMessage(GetParent(hWnd), VMW_MSG_USCROLL, ((signed short) HIWORD(wParam)) / 8, 0);
 		break;
 	case WM_LBUTTONDOWN:
 		vmUsers.scroll = 1;

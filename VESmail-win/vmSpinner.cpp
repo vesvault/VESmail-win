@@ -7,6 +7,7 @@
 struct {
 	HWND dots[8];
 	HICON icons[2];
+	HWND prompt;
 	int curr;
 } vmSpinner;
 
