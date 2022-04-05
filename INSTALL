@@ -1,0 +1,16 @@
+Installation Instructions
+*************************
+
+Relies on VESmail -
+git@github.com:vesvault/VESmail.git
+
+In the VESmail project dir
+- copy Makefile.win to Makefile, or run configure.bat
+- adjust the paths to libVES, openssl and curl
+  (download those first if not installed, see README for VESmail)
+- nmake libvesmailw.lib (nmake comes with VS)
+
+Put the VESmail-win solution dir in VESmail/app dir (VESmail/app/VESmail-win),
+or adjust the paths to includes and libvesmailw accordingly.
+
+Use Visual Studio to build and deploy.
